@@ -1,4 +1,4 @@
-27222564622278010
+27224338167778422
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107918,3 +107918,10 @@ IFX-PG-TO247-4-U04
 0
 4
 4
+project_footprints
+UCC5350
+
+UCC5350SBQDRQ1.A 
+0
+8
+8
