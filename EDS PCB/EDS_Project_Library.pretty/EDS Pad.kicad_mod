@@ -1,0 +1,78 @@
+(footprint "EDS Pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.5 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4161ebec-9927-4646-820d-4c6fc001d6cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EDS Pad"
+		(at -7.5 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8acb786c-53ee-481f-a8bd-fbe2557af923")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95a41c77-1f09-4da7-b701-42954889f7e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea20eed9-145b-484f-ae48-a404d5495dab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at -7.5 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5749f091-f703-4de7-b28e-25c8c85681b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e933f3cf-6734-42ef-bfc1-b6e13e3bd820")
+	)
+	(embedded_fonts no)
+)

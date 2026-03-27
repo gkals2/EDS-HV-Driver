@@ -1,4 +1,4 @@
-27220792310518934
+27224341465285265
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62195,11 +62195,25 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EDS_Project_Library
+EDS Pad
+
+
+0
+1
+1
+EDS_Project_Library
 EDS_Input_Connector
 
 
 0
 3
+1
+EDS_Project_Library
+Untitled
+
+
+0
+1
 1
 Ferrite_THT
 LairdTech_28C0236-0JW-10
