@@ -56,8 +56,8 @@
 		)
 	)
 	(attr smd)
-	(fp_text user "A"
-		(at -0.5 4.5 0)
+	(fp_text user "Phase1"
+		(at -4 4.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "09a0ee0b-a644-49ae-ab95-148ce04838a3")
@@ -70,8 +70,8 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "C"
-		(at 29 4.5 0)
+	(fp_text user "Phase3"
+		(at 26.5 4.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4b7e7434-249c-4e7e-8ae5-0a253aa9b1bf")
@@ -84,22 +84,8 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "GND"
-		(at 43 4.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "ac2807c2-db88-4dd7-bf6d-edfee03ac406")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.25)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "B"
-		(at 14.5 4.5 0)
+	(fp_text user "Phase2"
+		(at 11 4.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ca76ac64-a9b1-4072-9288-ec8ec9596cd2")
@@ -135,14 +121,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "888f5bfe-8123-413c-a498-dc7d97ba7e09")
-	)
-	(pad "1" thru_hole circle
-		(at 45 0)
-		(size 2.5 2.5)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "d579d0e3-1c8c-4d06-8477-28654d119b1f")
 	)
 	(embedded_fonts no)
 )
