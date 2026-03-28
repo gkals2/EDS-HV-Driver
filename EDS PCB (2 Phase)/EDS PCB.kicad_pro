@@ -256,18 +256,12 @@
       {
         "name": "Phase1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0
       },
       {
         "name": "Phase2",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "Phase3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
@@ -286,10 +280,6 @@
       {
         "netclass": "Default",
         "pattern": "Phase2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Phase3"
       }
     ]
   },
